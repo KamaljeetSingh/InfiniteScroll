@@ -1,0 +1,18 @@
+/*#infinite-scroll-container{
+    height: 200px;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#content-container{
+    height: auto;
+    width: 500px;
+}
+
+.data{
+    width: 500px;
+    height: 40px;
+    text-align: center;    
+}
+*/
