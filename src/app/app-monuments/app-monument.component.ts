@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 
 @Component({
-    template: `<h3>List of monumnets</h3>`
+    templateUrl: './app-monument.component.html'
 })
 export class MonumentComponent{}
