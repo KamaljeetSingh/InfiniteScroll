@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "nested-forms"
+    "name": "file-upload"
   },
   "apps": [
     {
@@ -19,13 +19,9 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css",
-        "./JqueryInfinite/plugin.css"
+        "styles.css"
       ],
-      "scripts": [
-        "../node_modules/jquery/dist/jquery.min.js",
-        "./JqueryInfinite/infinite.jquery.js"
-      ],
+      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

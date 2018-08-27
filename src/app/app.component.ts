@@ -1,5 +1,4 @@
 import { Component, AfterViewInit } from '@angular/core';
-declare var $: any;
 
 @Component({
   selector: 'app-root',
@@ -7,9 +6,7 @@ declare var $: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit{
-  title = 'app';
 
   ngAfterViewInit(){
-    $('#infinite-scroll-container').infiniteScroll();
   }
 }
