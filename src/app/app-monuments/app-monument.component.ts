@@ -1,10 +1,15 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, AfterViewInit } from "@angular/core";
 
 @Component({
-    templateUrl: './app-monument.component.html'
+    templateUrl: './app-monument.component.html',
+    styleUrls: ['./app-monument.component.css']
 })
-export class MonumentComponent implements OnInit{
+export class MonumentComponent implements AfterViewInit{
     ngOnInit(){
+        
+    }
+
+    ngAfterViewInit(){
         
     }
 }
